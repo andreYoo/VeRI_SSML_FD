@@ -1,0 +1,19 @@
+DataSet veri776 loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    | 'Unknown' |    49357
+  query    |   200 |     1678
+  gallery  |   200 |    11579
+=> Loaded checkpoint 'output/veri776/checkpoint.pth.tar'
+best model at epoch: 53
+Test with best model:
+Extract feature from query images
+Extract feature from gallery images
+Computing distance between the two feature groups
+Start to compute metric
+Mean AP: 26.7%
+CMC Scores
+  top-1          74.5%
+  top-5          80.3%
+  top-10         83.6%
+  top-20         86.7%
