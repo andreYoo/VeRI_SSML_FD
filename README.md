@@ -27,7 +27,6 @@ pip install -r requirements.txt
 ├── models <br>
 │   └── imagenet #Extract backbone network checkpoint here <br>
 ├── output # Extract the checkpoints to reproduct the results. <br>
-├── run_scripts <br>
 └── tools <br>
 
 
@@ -46,8 +45,12 @@ output_query_small_img_path = './query_small/'
 
 Please refer 'preprocessiong_dataset/veri_wild_transform.py' file to conduct experiments for veri-wild dataset.
 
+
+
 ## Backbone network (ResNet-50) Reference
 You can download the backbone network model from [here](https://drive.google.com/file/d/1rfCcrOzIWNWakA3BYkqp5om2_nI5Ftr8/view?usp=sharing). Save the weight file on './models/imagenet'
+
+
 
 
 ## How to train and test
@@ -55,15 +58,19 @@ You can download the backbone network model from [here](https://drive.google.com
 ./do_exp.sh
 ~~~
 
+
+
 ## Reproduce the experimental results
 
 You can download the checkpoint files to reproduct the experiment results from [here](https://drive.google.com/drive/folders/1iglDV_H1obl5vopL6pFA6KiY7s-8fb0S?usp=sharing). After download it. Extract the file under the './outputs/veri776' or './outputs/veri-wild' depending on what you want to reproduct.
+
 
 
 ## Code reference.
 * The code is mainly encouraged by [GSMLP-SMLC](https://github.com/andreYoo/GSMLP-SMLC.git) and [MLCReID](https://github.com/kennethwdk/MLCReID)
 
 
-## Current issue.
+
+## Current issue[!!!].
 Since the scale of Veri-Wild dataset is too large, we may run the training code for the dataset. We provide a source code file to train the proposed method using CPU and DRAM settings. 'train_with_cpu.py' is it.
 
