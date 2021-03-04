@@ -72,5 +72,5 @@ You can download the checkpoint files to reproduct the experiment results from [
 
 
 ## Current issue[!!!].
-Since the scale of Veri-Wild dataset is too large, we may run the training code for the dataset. We provide a source code file to train the proposed method using CPU and DRAM settings. 'train_with_cpu.py' is it.
+Since the scale of Veri-Wild dataset is too large, we may have a segment fault issue when you run the training code for the dataset. We provide a source code file to train the proposed method using CPU and DRAM settings. 'train_with_cpu.py' is it. Unfortunately, Training our model based on CPU is extremely lower than GPU-based learning. It may need over than 24 hours for one epoch.
 
