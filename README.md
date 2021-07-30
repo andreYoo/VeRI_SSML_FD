@@ -74,3 +74,16 @@ You can download the checkpoint files to reproduct the experiment results from [
 ## Current issue[!!!].
 Since the scale of Veri-Wild dataset is too large, we may have a segment fault issue when you run the training code for the dataset. We provide a source code file to train the proposed method using CPU and DRAM settings. 'train_with_cpu.py' is it. Unfortunately, Training our model based on CPU is extremely slower than GPU-based learning. It may need over than 24 hours for one epoch.
 
+
+
+## Reference.
+~~~
+@article{yu2021unsupervised,
+  title={Unsupervised Vehicle Re-Identification via Self-supervised Metric Learning using Feature Dictionary},
+  author={Yu, Jongmin and Oh, Hyeontaek},
+  journal={arXiv preprint arXiv:2103.02250},
+  year={2021}
+}
+~~~
+*This paper has been accepted from IROS 2021. We will update the BibTeX code corresponding to the proceeding of the conference.
+
