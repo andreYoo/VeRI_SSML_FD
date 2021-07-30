@@ -2,7 +2,7 @@
 Unsupervised Vehicle Re-Identification based on Self-supervised Metric Learning using Feature Dictionary
 
 ## Abastract
-
+![intro_pic](https://user-images.githubusercontent.com/13298951/127588057-2dfa5596-17fe-4c54-b9b4-99ab6943ce4b.png)
 The key challenge of unsupervised vehicle re-identification (Re-ID) is learning discriminative features from unlabelled vehicle images. Numerous methods using domain adaptation have achieved outstanding performance, but those methods still need a labelled dataset as a source domain. This paper addresses unsupervised vehicle Re-ID, which no need any types of a labelled dataset, though a Self-supervised Metric Learning (SSML) based on a feature dictionary. Our method initially extracts features from vehicle images and stores them in a dictionary. Thereafter, based on the dictionary, the proposed method conducts dictionary-based positive label mining (DPLM) to search for positive labels. Pair-wise similarity, relative-rank consistency, and adjacent feature distribution similarity are considered to find images that may belong to the same vehicle to a given probe image. The results of DPLM are applied to dictionary-based triplet loss (DTL) to improve the discriminativeness of learnt features and refine the quality of the results of DPLM progressively. The iterative process with DPLM and DTL boosts the performance of unsupervised vehicle Re-ID. Experimental results demonstrate the effectiveness of the proposed method by producing promising vehicle Re-ID performance without a pre-labelled dataset.
 
 
